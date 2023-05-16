@@ -1,13 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/index.js" />
   </head>
-
   <body>
-    <div id="app"></div>
-
-    <script src="src/index.js"></script>
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-9">
+            <input
+              id="search-city"
+              type="search"
+              placeholder="Search city.."
+              class="form-control"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              id="search-city-submit"
+              type="submit"
+              value="Search"
+              class="form-control btn btn-primary shadow-sm"
+            />
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col-6"><h1 id="city">Portland,OR</h1></div>
+        <div class="col-6">
+          <h2><span id="current-temp">9</span>°C 🌤️</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <ul class="weather-date">
+            <li id="date">Friday, 9:40am</li>
+            <li>Mostly cloudy</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul class="list">
+            <li>Precipitation:0%</li>
+            <li>Humidity:81%</li>
+            <li>Wind3kph</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="src/index.js"></script>
   </body>
 </html>
