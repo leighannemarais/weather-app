@@ -11,44 +11,9 @@ form {
   margin: 15px auto;
 }
 h1 {
-  font-size: 40px;
-  margin: 15px auto;
+  font-size: 30px;
   padding-bottom: 10px;
-}
-h2 {
-  font-size: 35px;
-  padding-top: 20px;
-  float: right;
 }
 ul {
   list-style-type: none;
-}
-
-.weather-date {
-  line-height: 18px;
-  padding-bottom: 20px;
-  padding-left: 0px;
-}
-.list {
-  float: right;
-  line-height: 20px;
-  padding-bottom: 20px;
-}
-.weekday,
-.low-temp,
-.high-temp {
-  font-size: 16px;
-  text-align: center;
-}
-.emojis {
-  text-align: center;
-  font-size: 32px;
-}
-.weekday,
-.low-temp,
-.high-temp,
-.emojis {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
 }
