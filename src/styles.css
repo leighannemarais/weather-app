@@ -8,6 +8,12 @@ h1 {
 ul {
   list-style-type: none;
 }
+
+footer {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+}
 .container {
   border: 3px solid darkgray;
   margin: 100px auto;
